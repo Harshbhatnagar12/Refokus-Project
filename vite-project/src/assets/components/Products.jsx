@@ -19,8 +19,8 @@ function Products() {
        
     ]
   return (
-    <div>
-        {Products.map((val,index)=>  <Product val={val}/>)}
+    <div className='mt-[8vw]'>
+        {Products.map((val,index)=>  <Product key={index} val={val}/>)}
        
     </div>
   )
