@@ -5,17 +5,13 @@ import Stripes from './assets/components/Stripes'
 import Products from './assets/components/Products'
 import Marquees from './assets/components/Marquees'
 import Cards from './assets/components/Cards'
-import Footer from './assets/components/Footer'
-import LocomotiveScroll from 'locomotive-scroll';
+import Footer from './assets/components/Footer'  
 
 
-
-function App() {
-  
-  const locomotiveScroll = new LocomotiveScroll();
- 
+function App() { 
 
   return (
+
    <div className='w-full h-full bg-zinc-900 text-white font-["satoshi"]'>
     <Navbar/>
     <Work/>
